@@ -1,0 +1,2 @@
+select distinct t2.id_a as amigo_de_a, t1.id_a as usuario_a from seguidor as t1 join seguidor as t2 on t2.id_a = t1.id_b and t1.id_a = 1;
+
